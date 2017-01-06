@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="Theme.Flickr" parent="Theme.Base" />
+
+    <style name="Theme.Base" parent="AppTheme">
+        <item name="colorPrimary">@color/flickrPrimaryBackgroundColor</item>
+        <item name="colorPrimaryDark">@color/flickrSecondaryBackgroundColor</item>
+        <item name="colorAccent">@color/flickrColorBackgroundAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/flickrBackgroundColor</item>
+        <item name="android:navigationBarColor">?colorPrimaryDark</item>
+    </style>
+</resources>
